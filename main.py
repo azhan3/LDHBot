@@ -3,6 +3,7 @@ from discord_slash import SlashCommand
 from discord.ext import commands
 from PIL import ImageColor
 from discord.utils import get
+import dns
 import pymongo
 
 apiURI = "mongodb+srv://ALEX:rtXreOIhLVzGWIqz@cluster0.mb4wu.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
