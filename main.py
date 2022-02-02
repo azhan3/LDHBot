@@ -4,7 +4,6 @@ from discord.ext import commands
 from PIL import ImageColor
 from discord.utils import get
 import pymongo
-import dns
 
 apiURI = "mongodb+srv://ALEX:rtXreOIhLVzGWIqz@cluster0.mb4wu.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
 client = pymongo.MongoClient(apiURI)
