@@ -5,7 +5,7 @@ from PIL import ImageColor
 from discord.utils import get
 import pymongo
 
-apiURI = 'mongodb://ALEX:rtXreOIhLVzGWIqz@cluster0-shard-00-00.mb4wu.mongodb.net:27017,cluster0-shard-00-01.mb4wu.mongodb.net:27017,cluster0-shard-00-02.mb4wu.mongodb.net:27017/myFirstDatabase?ssl=true&replicaSet=atlas-y3m5i3-shard-0&authSource=admin&retryWrites=true&w=majority'
+apiURI = ''
 client = pymongo.MongoClient(apiURI)
 dbname = "LDHBot"
 db = client[dbname]
